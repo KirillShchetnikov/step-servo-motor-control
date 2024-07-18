@@ -1,0 +1,3 @@
+C:/Users/Администратор/Desktop/k.shchetnikov/Svet/build/CMakeFiles/Svet.elf.dir
+C:/Users/Администратор/Desktop/k.shchetnikov/Svet/build/CMakeFiles/edit_cache.dir
+C:/Users/Администратор/Desktop/k.shchetnikov/Svet/build/CMakeFiles/rebuild_cache.dir

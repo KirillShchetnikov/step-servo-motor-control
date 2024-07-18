@@ -1,0 +1,56 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: C:/Users/Администратор/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/users/рфьшэшёЄЁрЄюЁ/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:/Users/Администратор/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++.exe 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+c:/users/рфьшэшёЄЁрЄюЁ/.platformio/packages/toolchain-gccarmnoneeabi/bin/../lib/gcc/arm-none-eabi/7.2.1/../../../../arm-none-eabi/lib\libc.a(lib_a-exit.o): In function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2.exe: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Администратор/Desktop/k.shchetnikov/Svet/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/mingw64/bin/make.exe -f Makefile cmTC_a3542/fast && C:/MinGW/mingw64/bin/make.exe  -f CMakeFiles/cmTC_a3542.dir/build.make CMakeFiles/cmTC_a3542.dir/build
+make[1]: Entering directory 'C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/k.shchetnikov/Svet/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a3542.dir/CMakeCCompilerABI.c.obj
+C:/Users/╨Р╨┤╨╝╨╕╨╜╨╕╤Б╤В╤А╨░╤В╨╛╤А/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe   -v -o CMakeFiles/cmTC_a3542.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c"
+process_begin: CreateProcess(NULL, C:/Users/╨Р╨┤╨╝╨╕╨╜╨╕╤Б╤В╤А╨░╤В╨╛╤А/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-gcc.exe -v -o CMakeFiles/cmTC_a3542.dir/CMakeCCompilerABI.c.obj -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCCompilerABI.c", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+make[1]: *** [CMakeFiles/cmTC_a3542.dir/build.make:78: CMakeFiles/cmTC_a3542.dir/CMakeCCompilerABI.c.obj] Error 2
+make[1]: Leaving directory 'C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/k.shchetnikov/Svet/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_a3542/fast] Error 2
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: C:/Users/Администратор/Desktop/k.shchetnikov/Svet/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/MinGW/mingw64/bin/make.exe -f Makefile cmTC_fcddf/fast && C:/MinGW/mingw64/bin/make.exe  -f CMakeFiles/cmTC_fcddf.dir/build.make CMakeFiles/cmTC_fcddf.dir/build
+make[1]: Entering directory 'C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/k.shchetnikov/Svet/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fcddf.dir/CMakeCXXCompilerABI.cpp.obj
+C:/Users/╨Р╨┤╨╝╨╕╨╜╨╕╤Б╤В╤А╨░╤В╨╛╤А/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++.exe   -v -o CMakeFiles/cmTC_fcddf.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp"
+process_begin: CreateProcess(NULL, C:/Users/╨Р╨┤╨╝╨╕╨╜╨╕╤Б╤В╤А╨░╤В╨╛╤А/.platformio/packages/toolchain-gccarmnoneeabi/bin/arm-none-eabi-g++.exe -v -o CMakeFiles/cmTC_fcddf.dir/CMakeCXXCompilerABI.cpp.obj -c "C:/Program Files/CMake/share/cmake-3.21/Modules/CMakeCXXCompilerABI.cpp", ...) failed.
+make (e=2): ═х єфрхЄё  эрщЄш єърчрээ√щ Їрщы.
+make[1]: *** [CMakeFiles/cmTC_fcddf.dir/build.make:78: CMakeFiles/cmTC_fcddf.dir/CMakeCXXCompilerABI.cpp.obj] Error 2
+make[1]: Leaving directory 'C:/Users/└фьшэшёЄЁрЄюЁ/Desktop/k.shchetnikov/Svet/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_fcddf/fast] Error 2
+
+
+
+
